@@ -16,7 +16,7 @@ public class MyController {
 
     @GetMapping("/")
     public String index(){
-        return "hello spring";
+        return "hello spring boot";
     }
 
     @GetMapping("/add")
