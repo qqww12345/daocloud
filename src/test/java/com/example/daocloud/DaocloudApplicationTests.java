@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class DaocloudApplicationTests {
 
 	@Autowired
-	MySvc mySvc;
+	MySvc mySvc;  //对服务进行测试，只要测试mySvc
 
 	@Test
 	public void addTest() {
